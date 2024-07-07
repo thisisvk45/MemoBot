@@ -2,7 +2,7 @@ from groq import Groq
 
 def contextualize(query, context):
     # contextualizes the query with respect to context and returns it
-    client = Groq(api_key="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")
+    client = Groq(api_key="")
     chat_completion = client.chat.completions.create(
         messages=[
             {
